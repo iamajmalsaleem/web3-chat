@@ -19,13 +19,13 @@ function Header() {
         </div>
 
         <div className='col-span-4 text-left lg:text-center'>
-          <div className="relative h-48 w-48 lg:mx-auto border-pink-500 border-8 rounded-full">
+          <div className="hidden sm:inline-flex relative h-32 w-32 lg:mx-auto border-pink-500 border-8 rounded-full">
             <Avatar logoutOnPress />
           </div>
           {/* Welcome Message */}
           <h1 className='text-3xl'>Welcome to Web3 Chat dApp,</h1>
           {/* username */}
-          <h2 className='text-5xl font-bold truncate'>{user.getUsername()}</h2>
+          <h2 className='text-5xl font-bold truncate pb-2'>{user.getUsername()}</h2>
           {/* Change username component */}
           <ChangeUsername />
         </div>

@@ -14,7 +14,7 @@ function ChangeUsername() {
   };
 
   return (
-    <div className="text-sm absolute top-5 right-5">
+    <div className="text-sm absolute top-1 right-5">
       <button 
         disabled={isUserUpdating} 
         onClick={setUsername}
